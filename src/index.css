@@ -85,7 +85,14 @@ body{
   margin-bottom: 2rem;
 }
 
-/*DASHBOARD DESIGN*/
+.intro h1{
+  font-size: 35px;
+}
+.intro h2{
+  font-size: 25px;
+}
+
+/*ABOUT DESIGN*/
 .about{
   width: 100%;
   height: 50vh;
@@ -107,11 +114,55 @@ body{
 }
 
 .about-info {
-  width: 50vw;
+  width: 400px;
   color: #6f9589;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .about-info h1{
-  margin-bottom: 1.5rem;
-
+  margin: 1rem 0;
+  text-shadow: 1px 1px 1px black;
 }
+
+/*TECHNOLOGIES DESIGN*/
+
+.techno-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7E90AF ;
+}
+
+.techno-container h1{
+  color: #FBF9FB;
+  font-size: 30px;
+  margin: 1rem 0;
+  text-shadow: 1px 1px 1px black;
+}
+
+.tech-box {
+  width: 50%;
+}
+.tech{
+  display: inline-block;
+  background-color: #FBF9FB;
+  color: #6f9589;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding:12px 4px;
+  font-size: 18px;
+  border-radius: 16px;
+  font-weight: 600;
+}
+
+/*PROJECTS DESIGN*/
+.sliderimg{
+  width: 100%;
+  height: 500px;
+  object-fit: cover
+}
+
+
+

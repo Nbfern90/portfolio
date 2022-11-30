@@ -2,7 +2,9 @@ import React from "react";
 import Header from "./components/Header";
 import About from "./views/About";
 import Dashboard from "./views/Dashboard";
-import Skills from "./views/Skills";
+import Projects from "./views/Projects";
+import Technologies from "./views/Technologies";
+import "react-alice-carousel/lib/alice-carousel.css";
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       <Header />
       <Dashboard />
       <About />
-      <Skills />
+      <Technologies />
+      <Projects />
     </div>
   );
 }
