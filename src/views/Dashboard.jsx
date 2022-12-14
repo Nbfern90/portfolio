@@ -1,5 +1,5 @@
 import React from "react";
-import moonknight from "../img/moon knight.jpg";
+import me from "../img/Mug.jpg";
 
 const Dashboard = () => {
   return (
@@ -10,7 +10,7 @@ const Dashboard = () => {
           <br />
           <h2>Web Developer</h2>
         </div>
-        <img src={moonknight} alt="moonknight" />
+        <img src={me} alt="me" />
       </div>
     </section>
   );
