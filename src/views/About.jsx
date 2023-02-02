@@ -9,9 +9,9 @@ const About = () => {
         <div className="about-info">
           <h1>About Me</h1>
           <p>
-            I am a dedicated Full Stack Developer who enjoys thinking on my feet
-            and troubleshooting. My knack for figuring out solutions I attribute
-            to my years working in the Culinary Industry. I'm a motivated
+            I am a dedicated Web Developer who enjoys thinking on my feet and
+            troubleshooting. My knack for figuring out solutions I attribute to
+            my years working in the Culinary Industry. I'm a motivated
             individual who likes to take challenges head-on.
           </p>
           <br />
